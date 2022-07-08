@@ -12,3 +12,5 @@ namespace TestProject
         public double DailyAllowance { get; set; }
     }
 }
+
+// this Employee class

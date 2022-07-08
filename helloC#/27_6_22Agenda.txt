@@ -1,7 +1,7 @@
 
 1. .NET Framework:
 
-
+//Comment by Dhananjay
 	GC : 
 		Automatic Memory Management 
 		Garbage Collector works in two iterations

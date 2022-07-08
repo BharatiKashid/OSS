@@ -1,0 +1,114 @@
+
+1. .NET Framework:
+
+
+	GC : 
+		Automatic Memory Management 
+		Garbage Collector works in two iterations
+
+			Marks objects which are orphan objects ( unreference objects)
+			Sweeps those marked objects from Heap
+
+	Managed Heap: heap is managed by GC
+	Managed Code: IL code,
+		      Code execution is managed by CLR
+	Managed Programming language: C#
+
+		CLS: Common Language Specification
+		CLR: Common Language Runtime
+		CTS: Common Type System
+		BCL: Base Class Library
+		FCL: Framework Class Library
+		GC:  Garbage Collector
+
+		ADO.NET: ActiveX Data Objects
+		ORM:Object Relational Mapping
+		WPF: Windows Presentation Foundation
+		WCF: Windows Communication Foundation ( Library for building Service Oriented Architecture Apps ( SOA))
+		LINQ:Language Integrated Query ( LinQ)
+		ASP.net: Active Server Pages .net
+		MVC: Model View Controller
+		API:Application Program Interface ( inbuilt mechanism to invoke functionality )
+
+
+Assembly:
+	a Logical unit of Deployment on .net platform
+	is a collection of  exe and / or dll
+		
+	Exe: file or DLL file consit of  IL code
+		
+	Assembly consist of 
+
+			PE Header: (Ported Executable)
+				   Jump instruction  for Entry Point. (Main)
+			CLR Header:			 
+				    version of targtted .net runtime
+
+			Manifest:	
+				 infromation about assembly
+						version of assembly
+						Name of assembly
+						copyright of assebmly
+						Autor of Assebmly
+						Security Policy information about Code (CAS) ( Code Access Security)
+			Metadata:
+				data about data
+				data about IL code
+				lot of information about IL types and attributes
+
+
+			IL Code:
+				 Intermediate Language Code
+
+AppDomain:
+	(Application Domain)
+	.net execution context inside process
+
+	 Managed Heap
+
+	
+
+
+C# Language Feature:
+
+	1.Allow multiple classes to have Main as static function.
+	2.Set information to manifest of assembly using Attribute in assemblyinfo.cs.
+	3.Allow end user to submit information through command line at the start of exeuction of program
+	4.Simple difference between readonly and const keyword in CSharp
+	5.Operator Overloading
+	6.Singleton Pattern
+	7.Collection
+	8.Arrays
+		Single Dim
+
+		Multi Dim
+			Rectangular Array
+			Jagged Array
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

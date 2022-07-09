@@ -12,7 +12,8 @@ public class DBManager
 
  public static string connectionString = @"server=localhost;user=root;password=root;database=knowitdb";
  
- 
+ //hiii all of you
+
 
 }
 }

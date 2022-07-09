@@ -1,0 +1,20 @@
+@using TFLWebApp.Models;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<a href="/home/index">Home</a>|<a href="/products/index">Flowers</a>
+<hr />
+<p>No. of Visits by same client= @HttpContext.Current.Session["visits"].ToString()</p>
+
+<a href="/products/insert">Insert new Flower</a>
+@{
+    List<Product> allProducts = ViewBag.products;
+    foreach (Product product in allProducts)
+    {
+        <p> @product.Title <a href="/products/details/@product.Id">Details</a> |<a href="/products/update/@product.Id">Update</a>|<a href="/products/delete/@product.Id">Delete</a> </p>
+    }
+}
